@@ -11,4 +11,4 @@ fi
 docker run -i -t  --security-opt "label=disable" \
        -v ${WORKDIR}:/work \
        --env="DISPLAY" \
-       ubuntu14-6ull:latest
+       ubuntu16-6sx:latest
